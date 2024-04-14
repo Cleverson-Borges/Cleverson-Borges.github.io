@@ -1,1 +1,162 @@
-html {background-color: lightskyblue;}
+html {background-color:None;}
+
+body {
+    margin-right: 0px;
+    margin-left: 0px;
+    text-align: center;
+    display: grid;
+    background-color: gray;
+    padding: 0px;
+}
+
+h1 {
+    background-color: gray;
+    color:dark;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    color:black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3 {
+    color:black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    font-size: large;
+}
+
+nav {
+    top: 0px;
+    width: 100%;
+    background-color: gray;
+}
+
+nav ul {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    vertical-align: top;
+    font-size: large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+nav a {
+    display: block;
+    background-color: lightslategray;
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    padding: 10px 10px; /* Adiciona espaçamento interno aos botões */
+    margin: 25px; /* Adiciona espaçamento externo entre os botões */
+    text-decoration: none;
+    border: 5px solid #000; /* Adiciona uma borda sólida ao redor dos botões */
+    border-radius: 5px; /* Adiciona cantos arredondados aos botões */
+}
+
+a {
+    color: black;
+}
+
+.container1{
+    background-color: lightslategray;
+    border: 5px solid black;
+    display: flex;
+    padding-top: 25px;
+}
+
+.content1{
+    display: flex;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.container1 img{
+    border: 5px solid #000
+}
+
+.geral{
+    text-align: top;
+    width: 100%;
+}
+
+.container2{
+    background-color: lightslategray;
+    border: 5px solid black;
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    padding-top: 25px;
+}
+
+.content2{
+    display: flex;
+    text-align: top;
+    padding-left: 0px;
+    width: 100%;
+}
+
+.imagem-container2{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-container2 img {
+    max-width: 100%;
+    max-height: 100%;
+    border-top: 5px solid #000;
+    border-left: 5px solid #000;
+    border-right: 5px solid #000;
+}
+
+.container3{
+    background-color: lightslategray;
+    border: 5px solid #000;
+}
+
+.imagem-container3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagem-container3 img{
+    max-width: 100%;
+    max-height: 100%;
+    border: 5px solid #000;
+}
+
+.container4{
+    background-color: lightslategray;
+    border-right: 5px solid #000;
+    border-left: 5px solid #000;
+    border-bottom: 5px solid #000;
+}
+
+#secao4 {
+    display: flex;
+    flex-direction: column; /* Manter os elementos em uma coluna */
+    align-items: center;
+}
+
+.contato-item {
+    display: flex;
+    flex-direction: row; /* Alinha os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+    margin-bottom: 10px; /* Adiciona espaço entre os itens */
+}
+
