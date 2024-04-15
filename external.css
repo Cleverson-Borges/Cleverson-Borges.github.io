@@ -13,6 +13,7 @@ h1 {
     background-color: gray;
     color:dark;
     text-align: center;
+    text-decoration-line: underline overline;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
