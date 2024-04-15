@@ -149,8 +149,9 @@ a {
 
 #secao4 {
     display: flex;
-    flex-direction: column; /* Manter os elementos em uma coluna */
-    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-end;
 }
 
 .contato-item {
