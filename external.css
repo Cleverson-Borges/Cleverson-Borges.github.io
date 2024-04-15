@@ -48,6 +48,7 @@ nav li {
     display: inline-block;
     vertical-align: top;
     font-size: large;
+    font-weight: bold;
     font-family:Verdana, Geneva, Tahoma, sans-serif ;
 }
 
@@ -57,11 +58,12 @@ nav a {
     text-align: center;
     width: 150px;
     height: 40px;
-    padding: 10px 10px; /* Adiciona espaçamento interno aos botões */
+    padding: 15x; /* Adiciona espaçamento interno aos botões */
     margin: 25px; /* Adiciona espaçamento externo entre os botões */
     text-decoration: none;
     border: 5px solid #000; /* Adiciona uma borda sólida ao redor dos botões */
     border-radius: 5px; /* Adiciona cantos arredondados aos botões */
+    line-height: 20px;
 }
 
 a {
