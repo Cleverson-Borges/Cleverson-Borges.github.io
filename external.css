@@ -160,3 +160,6 @@ a {
     margin-bottom: 10px; /* Adiciona espaço entre os itens */
 }
 
+.contato-item img{
+    padding-right: 10px;
+}
